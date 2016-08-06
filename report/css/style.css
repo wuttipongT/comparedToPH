@@ -1,0 +1,50 @@
+body {
+	font-family: 'THSarabunNew';
+	color: #000;
+	font-size: 12px;
+}
+table{
+	border-collapse: collapse;
+}
+#container{
+	position: relative;
+	background-color:#fff;
+	border: 1px solid #ccc;
+	width: 8.3in;
+	height: 11.7in;
+}
+.margin{
+	position: absolute;
+	left: 2.54cm;
+	right: 2.54cm;
+	top: 2.54cm;
+	bottom: 2.54cm;
+	width: auto;
+	height: auto;
+}
+#container #top > img{
+	display: block;
+	margin: auto;
+	width: auto;
+	height: auto;
+}
+#container #top > h3{
+	text-align: center;
+}
+#container #top > .container-file > #blah {
+	width: 120px;
+	height: 1.2in;
+	display: inline-block;
+	border: 1px solid #ccc;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	position: absolute;
+}
+.hr{
+	height: 8px;
+	border: none;
+	outline: none;
+	background: #fff url('../images/shad.png') no-repeat scroll center;
+}
+ul li {list-style:none;}

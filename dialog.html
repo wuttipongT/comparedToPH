@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>dialog</title>
+<link rel="stylesheet" type="text/css" href="http://comparedtoph.info/jQueryUI/css/ui-lightness/jquery-ui-1.10.1.custom.min.css" />
+	<script type="text/javascript" src="http://comparedtoph.info/jQueryUI/js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="http://comparedtoph.info/jQueryUI/js/jquery-ui-1.10.1.custom.min.js"></script>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+	$(function () {
+	$(".aa").click(function () {  
+	alert("ok"); 
+	$( "#dialog" ).dialog("open");  
+	});
+
+	$("#dialog").dialog({
+	title: "show Dialog",
+	bgiframe: true,
+	autoOpen: false, 
+	height: '200',
+	width: '300',
+	resizable: false, 
+	modal: true  
+	});
+	});
+	</script>
+
+	<input class="aa" name="aabb" type="button" value="Dialog"/>
+
+	<div id="dialog" style="display:none;">
+	Hello World!
+	</div>
+
+</body>
+</html>
